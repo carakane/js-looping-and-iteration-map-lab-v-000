@@ -8,7 +8,7 @@ function nameToAttributes(drivers) {
   console.log(drivers[0].split(" ")[0])
   console.log(drivers[0].split(" ")[1])
   let driverArr = []
-  drivers.map(driver => driverArr.push({firstName: driver.split(" ")[0]}, {lastName: driver.split(" ")[1]}))
+  drivers.map(driver => driverArr.push({firstName: driver.split(" ")[0], lastName: driver.split(" ")[1]}))
   console.log(driverArr)
   return driverArr
 }

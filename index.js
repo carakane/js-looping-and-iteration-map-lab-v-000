@@ -5,7 +5,7 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-  return drivers.map(driver => Object.assign{{firstName: driver.split(" ")[0]}, {lastName: driver..split(" ")[1]}})
+  return drivers.map(driver => Object.assign{{firstName: driver.split(" ")[0]}, {lastName: driver.split(" ")[1]}})
 }
 
 function attributesToPhrase() {

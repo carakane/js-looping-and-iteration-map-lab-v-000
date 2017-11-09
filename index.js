@@ -10,5 +10,6 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
+  console.log(drivers)
   return drivers.map(driver => `${driver.split(" ")[0]} is from ${driver.split(" ")[1]}`)
 }

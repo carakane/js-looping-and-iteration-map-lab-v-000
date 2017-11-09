@@ -7,7 +7,7 @@ function lowerCaseDrivers(drivers) {
 function nameToAttributes(drivers) {
   console.log(drivers[0].split(" ")[0])
   let driverArr = []
-  drivers.map(driver => driverArr.push({firstName})
+  drivers.map(driver => driverArr.push({firstName}))
   return driverArr
 }
 
